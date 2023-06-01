@@ -1,0 +1,108 @@
+body {
+    background-color: rgb(34, 34, 34);
+    color: rgb(255, 255, 255);
+    font-family: poppinsregular;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+h1 {
+    font-weight: 200;
+    font-size: 50px;
+    font-family: poppinsmedium;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+li {
+    display: inline-block;
+    margin: 15px;
+}
+
+h2 {
+    font-family: poppinsmedium;
+    line-height: 10px;
+    font-size: 50px; 
+}
+
+span {
+    color:rgb(26, 189, 167);
+}
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+img {
+    width: 600px;
+}
+
+a {
+    color: azure;
+}
+
+a:hover {
+    color:rgb(26, 189, 167);
+    transition: 0.3s all;
+}
+
+#discord { 
+    border: 2px solid rgb(26, 189, 167);
+    border-radius: 12px;
+    line-height: 10px;
+    padding: 10px;
+}
+
+#discord:hover {
+    background-color: rgb(26, 189, 167);
+    color: rgb(0, 0, 0);
+}
+
+#icon {
+   max-width: 40px;
+}
+
+footer {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+b {
+    color: rgb(26, 189, 167);
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(231, 230, 228);        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(74, 240, 176);    /* color of the scroll thumb */
+    border-radius: 10px;       /* roundness of the scroll thumb */
+    border: 0px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
+  }
